@@ -39,7 +39,7 @@
     .logo{
         flex-grow:1;
         flex-shrink:1;
-        transform:translate(15%,-30%) scale(1.1);
+        transform:translate(11%,-30%) scale(0.9);
         padding: 0;
     }
     .lens{
@@ -47,18 +47,21 @@
         flex-grow:1;
         flex-shrink:1;
         padding-top:10%;
-        transform:translate(2%,10%);
+        transform:translate(2%,10%) scale(0.8);
     }
     .message{
         position:absolute;
         color:white;
         left:15vw;
-        top:70vh;
+        top:65vh;
         font-size: 0.7em;
         width:70vw;
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .prakhar{
+        font-size:0.8em;
     }
 }
