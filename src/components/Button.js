@@ -1,7 +1,7 @@
 import {useEffect,useRef} from 'react'
 import { gsap } from "gsap";
 
-const Button = ({text}) => {
+const Button = ({text,click}) => {
 
   const buttonRef = useRef()
   useEffect(()=>{gsap.fromTo(buttonRef.current, { y:'100%' },{ y:'0%' } )})
@@ -11,7 +11,7 @@ const Button = ({text}) => {
 
   
   return (
-    <button style={styling} class='btn' ref={buttonRef}>{text}</button>
+    <button style={styling} class='btn' ref={buttonRef} onClick={click}>{text}</button>
   )
 }
 const styling = {

@@ -33,8 +33,8 @@ const Five = (props) => {
           MADE WITH ❤️ BY PRAKHAR TANDON
         </div>
         <div className="icons" style={icons}>
-        <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" alt='' style={{padding:'0.5em'}}/>
-        <img src="https://img.icons8.com/fluency-systems-regular/48/ffffff/new-post.png" alt='' style={{padding:'0.5em'}} />
+        <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" alt='' style={{padding:'0.1em'}}/>
+        <img src="https://img.icons8.com/fluency-systems-regular/48/ffffff/new-post.png" alt='' style={{padding:'0.1em'}} />
         </div>
       </div>
     </div>

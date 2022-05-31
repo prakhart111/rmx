@@ -44,7 +44,7 @@ export default function App() {
         <section className="panel orange" ref={(e) => createPanelsRefs(e, 2)}>
           <Two />
         </section>
-        <section className="panel purple" ref={(e) => createPanelsRefs(e, 3)}>
+        <section className="panel black" ref={(e) => createPanelsRefs(e, 3)}>
           <Three />
         </section>
         <section className="panel green" ref={(e) => createPanelsRefs(e, 4)}>

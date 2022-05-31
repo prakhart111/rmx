@@ -3,7 +3,8 @@
     display:flex;
     align-items: center;
     justify-content:center;
-    transform:translate(-10px,-15px);
+    transform:translate(-15px,-15px);
+    overflow:hidden;
 }
 .logo{
     flex-grow:1;
@@ -24,7 +25,10 @@
     font-weight:200;
     transform:translateY(-40%);
 }
-
+.message{
+    position:absolute;
+    left:-10000px;
+}
 @media screen and (max-width:600px) {
     .contOne{
         display:flex;
@@ -44,5 +48,17 @@
         flex-shrink:1;
         padding-top:10%;
         transform:translate(2%,10%);
-    }   
+    }
+    .message{
+        position:absolute;
+        color:white;
+        left:15vw;
+        top:70vh;
+        font-size: 0.7em;
+        width:70vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

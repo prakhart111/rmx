@@ -14,6 +14,9 @@ const Two = (props) => {
     position:'relative',
     top:'80%',
   }
+  const scroller = ()=>{
+    window.scrollBy(0,100);
+  }
   return (
     
     <div style={herostyle}>
@@ -21,7 +24,7 @@ const Two = (props) => {
         <img src={tag} alt="" width='45%' />
       </div>
       <div className="buttCont" style={butt}>
-    <Button text="Explore Galary" />
+    <Button text="Explore Galary" click={scroller}/>
       </div>
     </div>
     

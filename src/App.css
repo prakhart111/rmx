@@ -9,6 +9,7 @@
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
+  overflow:hidden;
 }
 .panel{
   display:flex;
@@ -157,6 +158,6 @@ header {
 
 @media (max-width:600px) {
   .panel{
-    touch-action:pan-x;
+    touch-action:none;
   }
 }
