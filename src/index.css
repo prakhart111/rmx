@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Agrandir";
+  src: url("../public/Agrandir-GrandLight.otf") format("truetype");
+  }
+@font-face {
+    font-family: "Robolt";
+    src: url("../public/RoboltxVintage.ttf") format("truetype");
+    }
+.btn{
+  font-family: 'Agrandir';
+}
+button:focus{
+  border:5px solid #fff !important;
+}

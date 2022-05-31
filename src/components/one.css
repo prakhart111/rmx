@@ -1,0 +1,48 @@
+
+.contOne{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    transform:translate(-10px,-15px);
+}
+.logo{
+    flex-grow:1;
+    flex-shrink:1;
+    display:grid;
+    padding-left:15%;
+}
+.lens{
+    margin-right:15%;
+    display:grid;
+    flex-grow:1;
+    flex-shrink:1;
+}
+.prakhar{
+    font-family:'Agrandir';
+    font-size:1em;
+    letter-spacing:0.4em;
+    font-weight:200;
+    transform:translateY(-40%);
+}
+
+@media screen and (max-width:600px) {
+    .contOne{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content:center;
+    }
+    .logo{
+        flex-grow:1;
+        flex-shrink:1;
+        transform:translate(15%,-30%) scale(1.1);
+        padding: 0;
+    }
+    .lens{
+        display:grid;
+        flex-grow:1;
+        flex-shrink:1;
+        padding-top:10%;
+        transform:translate(2%,10%);
+    }   
+}
